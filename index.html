@@ -1,11 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Web Design</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <section>
+        <div class="login">
+            <div class="logo"><img src="assets/logo.png" alt="Logo"></div>
+            <h2 id="title">Welcome Back</h2>
+
+            <form action="">
+                <input type="text" placeholder="Username" required id="username">
+                <br>
+                <input type="password" placeholder="Password" required id="password">
+                <div id="option">
+                    <div>
+                        <input type="checkbox" name="remember" value="rememberMe">
+                        <label for="remember">Remember Me</label>
+                    </div>
+                    <a href="#">
+                        <h5>Forget password</h5>
+                    </a>
+                </div>
+
+                <button class="btn-sign">Sign In</button>
+
+
+                <h5 style="text-align: center;">------------------------------------or-------------------------------------</h5>
+
+                <button class="btn-sign-google"><img src="assets/googleicon.png" alt="google icon">Sign In with
+                    Google</button>
+
+            </form>
+
+            <div class="sign-up">
+                <h3>Don't have an account? <a href="#" class="btn-signup">Sign Up</a></h3>
+            </div>
+
+        </div>
+    </section>
 </body>
+
 </html>

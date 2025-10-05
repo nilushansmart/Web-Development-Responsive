@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-image: url(assets/bg.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: right;
+}
+
+.login {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-radius: 0 20px 20px 0;
+    padding: 40px;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+}
+
+#title {
+    color: #FF451C;
+    padding-bottom: 25px;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#username,
+#password {
+    border: none;
+    margin-bottom: 20px;
+    padding: 15px;
+    width: 400px;
+    background-color: #F1F1F1;
+    border-radius: 10px;
+}
+
+
+#option {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+}
+
+#option label {
+    font-size: medium;
+    font-family: Arial, sans-serif;
+}
+
+#option h5 {
+    font-size: medium;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+.btn-sign {
+    background-color: #FF451C;
+    width: 100%;
+    padding: 15px;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+#or div {
+    border-right: black;
+}
+
+.btn-sign-google {
+    background-color: #fff;
+    width: 100%;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin: 25px 0;
+
+}
+
+.btn-sign-google img {
+    width: 30px;
+    height: 20px;
+    padding-right: 10px;
+}
+
+.sign-up {
+    margin-top: 80px;
+    position: relative;
+    bottom: 20px;
+}
+
+.sign-up button {
+    font-weight: bolder;
+    color: black;
+    text-decoration: none;
+    font-size: medium;
+}
