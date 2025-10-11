@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-image: url(assets/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+.login {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-radius: 0 20px 20px 0;
+    padding: 40px;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    background-image: url(assets/logo.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#title {
+    color: #FF451C;
+    padding-bottom: 25px;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#username,
+#password {
+    border: none;
+    margin-bottom: 30px;
+    padding: 15px;
+    width: 100%;
+    background-color: #F1F1F1;
+    border-radius: 10px;
+}
+
+.or {
+    color: #606060;
+}
+
+.or hr {
+    display: inline-block;
+    width: 200px;
+}
+
+.or p {
+    display: inline-block;
+}
+
+
+#option {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+}
+
+#option label {
+    font-size: medium;
+    font-family: Arial, sans-serif;
+}
+
+#option h5 {
+    font-size: medium;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+.btn-sign {
+    background-color: #FF451C;
+    width: 100%;
+    padding: 15px;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+#or div {
+    border-right: black;
+}
+
+.btn-sign-google {
+    background-color: #fff;
+    width: 100%;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin: 25px 0;
+
+}
+
+.btn-sign-google img {
+    width: 30px;
+    height: 20px;
+    padding-right: 10px;
+}
+
+.sign-up {
+    margin-top: 80px;
+    position: relative;
+    bottom: 20px;
+}
+
+.btn-signup {
+    font-weight: bolder;
+    color: black;
+    text-decoration: none;
+    font-size: medium;
+}
+
+@media only screen and (max-width:430px) {
+
+    .login {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-image: url(assets/bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 40px;
+        border-radius: 0;
+    }
+
+    .logo {
+        width: 50px;
+        height: 50px;
+        background-image: url(assets/logo-mobile.png);
+        background-size: cover;
+        background-position: center;
+    }
+
+    #title {
+        color: #fff;
+        padding-bottom: 25px;
+        font-weight: 500;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    #username,
+    #password {
+        margin-bottom: 20px;
+        padding: 15px;
+        width: 100%;
+        border-radius: 10px;
+        color: white;
+
+        /* From https://css.glass */
+        background: rgba(255, 255, 255, 0.47);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(3px);
+        -webkit-backdrop-filter: blur(3px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+    }
+
+    .or {
+        color: #fff;
+    }
+
+    .or hr {
+        display: inline-block;
+        width: 150px;
+    }
+
+    .or p {
+        display: inline-block;
+    }
+
+    #option h5 {
+        font-size: medium;
+        font-family: Arial, sans-serif;
+        text-decoration: none;
+        color: #fff;
+    }
+
+    #option label {
+        font-size: medium;
+        font-family: Arial, sans-serif;
+        color: #fff;
+    }
+
+    .btn-signup {
+        font-weight: bolder;
+        color: #fff;
+        text-decoration: none;
+        font-size: medium;
+    }
+
+    .sign-up {
+        margin-top: 80px;
+        position: relative;
+        bottom: 20px;
+        color: white;
+    }
+
+
+
+
+}
